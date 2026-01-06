@@ -57,11 +57,21 @@ nav .menu a{
   font-weight: bolder;
   color: white;
   cursor: pointer;
+
 }
+
+.section-heading{
+  text-align: center;
+  max-width: 827px;
+}
+ 
+ 
+  
+
 
 #banner{
   /* border: 1px solid crimson; */
-  margin: 46px 38px 0px 230px;
+  margin: 46px 23px 0px 230px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -108,6 +118,11 @@ nav .menu a{
 
   width: 71%;
   max-width: 1140px;
+  margin: 0px auto;
+  text-align: center;
+  background-color: #FFF8F3;
+  padding: 131px 157px;
+  
 
 }
 
