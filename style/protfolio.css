@@ -139,13 +139,14 @@ nav .menu a{
 
 #about .about-contanier .about-info{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  gap: 20px;
 }
 .about-info .about-card p{
   font-size: 20px;
-  color: #474747;
+  color: #757575;
   line-height: 30px;
-}
+}  
 .about-info .about-card h4{
 
 font-size: 20px;
@@ -162,6 +163,38 @@ font-size: 20px;
   max-width: 1140px;
   margin: 0 auto;
 }
+
+#skills .skills-container .skills-box{
+
+  display: flex;
+  gap: 24px;
+}
+.skills-box .skills-cord{
+
+  padding: 30px;
+  max-width: 267px;
+  /* border: 1px solid red; */
+  box-shadow: 0 6px 50px 0  #1818181e;
+
+
+}
+.skills-cord img{
+  max-width: 44px;
+  margin-bottom: 30px;
+
+}
+.skills-cord h3{
+  font-size: 20px;
+  color:#181818;
+  margin-bottom: 20px;
+}
+.skills-cord p{
+  font-size: 16px;
+  color: #757575;
+  line-height: 28px;
+}
+
+
 
 
 
