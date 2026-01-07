@@ -63,6 +63,17 @@ nav .menu a{
 .section-heading{
   text-align: center;
   max-width: 827px;
+  margin: 0 auto;
+}
+.section-heading h2{
+  font-size: 35px;
+  margin-bottom: 30px;
+} 
+.section-heading p{
+  font-size: 18px;
+  margin-bottom: 30px;
+  line-height: 30px;
+  color: #757575;
 }
  
  
@@ -125,6 +136,35 @@ nav .menu a{
   
 
 }
+
+#about .about-contanier .about-info{
+  display: flex;
+  justify-content: space-between;
+}
+.about-info .about-card p{
+  font-size: 20px;
+  color: #474747;
+  line-height: 30px;
+}
+.about-info .about-card h4{
+
+font-size: 20px;
+
+}
+
+#skills{
+  margin-top: 130px;
+}
+
+#skills .skills-container{
+
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+
+
 
 
 
