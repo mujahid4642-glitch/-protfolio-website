@@ -12,7 +12,7 @@
 header{
     background-color: #FFF8F3;
     background: url("../images/developer.png") , url("../images/header_bg.png") , #FFF8F3;
-    background-position:  top left , bottom right;
+    background-position:  38px 23px , bottom right;
     background-repeat: no-repeat;
     padding-top: 50px;
 }
@@ -59,6 +59,7 @@ nav .menu a{
   cursor: pointer;
 
 }
+
 
 .section-heading{
   text-align: center;
@@ -241,8 +242,62 @@ font-size: 20px;
 .resume-continer hr{
   margin: 30px;
 }
+.cv{
+  text-align: center;
+}
+footer{
+  margin-top: 130px;
+  background-color: #FFF8F3;
+  padding: 130px 0;
+}
 
+ .footer-continar{
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  gap: 117px;
 
+}
+
+.footer-continar .socia{
+  max-width: 562px;
+
+}
+.footer-continar h2{
+  font-size: 35px;
+  color: #181818;
+  margin-bottom: 20px;
+}
+
+.footer-continar .social p{
+  font-size:  16px;
+  line-height: 28px;
+  color: #474747;
+  margin-bottom: 30px;
+  max-width: 562px;
+}
+.footer-continar .icons a{
+  margin-right: 24px;
+
+}
+
+.footer-continar .form input[type="text"]{
+
+  width: 461px;
+  padding: 18px 31px;
+  margin: 24px;
+  border: none;
+  color: #757575;
+}
+.footer-continar .form input textarea {
+   width: 461px;
+  padding: 18px 31px;
+  margin: 24px;
+  border: none;
+  color: #757575;
+
+}
 
 
 
