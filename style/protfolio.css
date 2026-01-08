@@ -194,7 +194,53 @@ font-size: 20px;
   line-height: 28px;
 }
 
+.resume{
+  padding-top: 130px;
+}
 
+.resume .resume-continer{
+  width: 71%;
+  max-width: 1140px;
+  margin: 113px  auto 0;
+  
+  display: flex;
+  gap: 20px;
+}
+
+.resume-continer .section-tittle{
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: #474747;
+}
+
+.resume-card{
+  max-width: 511px;
+  margin-right: 47px;
+}
+
+.resume-card .card-tittle{
+  font-size: 25px;
+  color: #474747;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.resume-card .card-info{
+  font-size: 20px;
+  color: #757575;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.resume-card .card-text{
+  font-size: 16px;
+  color:#757575;
+  line-height: 28px;
+
+}
+.resume-continer hr{
+  margin: 30px;
+}
 
 
 
